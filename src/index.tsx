@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
     <Box
       sx={{
+        backgroundColor: "black",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
