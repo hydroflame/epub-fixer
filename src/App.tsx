@@ -12,7 +12,8 @@ const fixes: [string, string][] = [
   ["—", "-"],
   ["’", "'"],
   ["‘", "'"],
-  [String.fromCharCode(160), " "], // non-breaking space
+  [String.fromCharCode(173), " "], // non-breaking space
+  [String.fromCharCode(160), " "], // another non-breaking space
 ];
 
 const fixNode = (n: Node): void => {
