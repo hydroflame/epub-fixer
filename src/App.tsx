@@ -11,6 +11,7 @@ const fixes: [string, string][] = [
   ["”", '"'],
   ["—", "-"],
   ["’", "'"],
+  ["‘", "'"],
   [String.fromCharCode(160), " "], // non-breaking space
 ];
 
